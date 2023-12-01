@@ -5,20 +5,37 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css">
   
   <title>Frontend Mentor | Age calculator app</title>
 </head>
 <body>
   <div>
     <form>
-      <label for="day">DAY</label>
-      <input type="number" id="day" name="day" min="1" max="31" placeholder="DD" required>
-
-      <label for="month">MONTH</label>
-      <input type="number" id="month" name="month" min="1" max="12" placeholder="MM" required>
-
-      <label for="year">YEAR</label>
-      <input type="number" id="year" name="year" placeholder="YYYY" required>
+      <table>
+        <tr>
+          <th>
+            <label for="day">DAY</label>
+          </th>
+          <th>  
+            <label for="month">MONTH</label>
+          </th>
+          <th>
+            <label for="year">YEAR</label>
+          </th>
+        </tr>
+        <tr>
+          <td>  
+            <input type="number" id="day" name="day" min="1" max="31" placeholder="DD" required>
+          </td>
+          <td>
+            <input type="number" id="month" name="month" min="1" max="12" placeholder="MM" required>
+          </td>
+          <td>
+            <input type="number" id="year" name="year" placeholder="YYYY" required>
+          </td>
+        </tr>
+      </table>
     </form>
   </div>
 </body>
