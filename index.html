@@ -20,9 +20,9 @@
             <th><label for="year">YEAR</label></th>
           </tr>
           <tr>
-            <td><input type="number" id="day" name="day" min="1" max="31" placeholder="DD" required></td>
-            <td><input type="number" id="month" name="month" min="1" max="12" placeholder="MM" required></td>
-            <td><input type="number" id="year" name="year" placeholder="YYYY" required></td>
+            <td><input type="number" id="input_day" name="day" min="1" max="31" placeholder="DD" required></td>
+            <td><input type="number" id="input_month" name="month" min="1" max="12" placeholder="MM" required></td>
+            <td><input type="number" id="input_year" name="year" placeholder="YYYY" required></td>
 
             <td><input type="submit" id="submit" name="submit"></td>
           </tr>
@@ -32,8 +32,14 @@
     
     <hr>
 
-    <div>
-      
+    <div id="output">
+      <section class="output">
+        <p id="years" class="output">--</p>
+        <p>years</p>
+        <br>
+
+        <p id="months" class="output"></p>
+      </section>
     </div>
   </div>
 </body>
