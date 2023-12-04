@@ -10,36 +10,38 @@
   <title>Frontend Mentor | Age calculator app</title>
 </head>
 <body>
-  <div id="container">
-    <div id="input">
-      <form id="date">
-        <table>
-          <tr>
-            <th><label for="day">DAY</label></th>
-            <th><label for="month">MONTH</label></th>
-            <th><label for="year">YEAR</label></th>
-          </tr>
-          <tr>
-            <td><input type="number" id="input_day" name="day" min="1" max="31" placeholder="DD" required></td>
-            <td><input type="number" id="input_month" name="month" min="1" max="12" placeholder="MM" required></td>
-            <td><input type="number" id="input_year" name="year" placeholder="YYYY" required></td>
+  <div id="contain_the_container">
+    <div id="container">
+      <div id="contained_container">
+        <div id="input">
+          <form id="date">
+            <table>
+              <tr>
+                <th><label for="day">DAY</label></th>
+                <th><label for="month">MONTH</label></th>
+                <th><label for="year">YEAR</label></th>
+              </tr>
+              <tr>
+                <td><input type="number" id="input_day" name="day" min="1" max="31" placeholder="DD" required></td>
+                <td><input type="number" id="input_month" name="month" min="1" max="12" placeholder="MM" required></td>
+                <td><input type="number" id="input_year" name="year" placeholder="YYYY" required></td>
 
-            <td><input type="submit" id="submit" name="submit"></td>
-          </tr>
-        </table>
-      </form>
-    </div>
-    
-    <hr>
+                <td><input type="submit" id="submit" name="submit"></td>
+              </tr>
+            </table>
+          </form>
+        </div>
+        
+        <hr>
 
-    <div id="output">
-      <section class="output">
-        <p id="years" class="output">--</p>
-        <p>years</p>
-        <br>
+        <div id="output">
+          <p id="years">-- years</p>
 
-        <p id="months" class="output"></p>
-      </section>
+          <p id="months">-- months</p>
+
+          <p id="days">-- days</p>
+        </div>
+      </div>
     </div>
   </div>
 </body>

@@ -1,3 +1,27 @@
 table {
     text-align: left;
 }
+
+html, body {
+    height: 100%;
+}
+
+#contain_the_container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+#contained_container {
+    
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
