@@ -4,9 +4,10 @@ table {
 
 html, body {
     height: 100%;
+    background-color: hsl(0, 0%, 94%);
 }
 
-#contain_the_container {
+#contain-the-container {
     height: 100%;
     display: flex;
     align-items: center;
@@ -14,8 +15,8 @@ html, body {
     flex-direction: column;
 }
 
-#contained_container {
-    
+#contained-container {
+    background-color: hsl(0, 0%, 100%);
 }
 
 #container {
@@ -24,4 +25,11 @@ html, body {
     justify-content: center;
     align-items: center;
     flex-grow: 1;
+}
+
+#submit {
+    border: none;
+    background-color: hsl(259, 100%, 65%);
+    border-radius: 50px;
+    padding: 18px;
 }

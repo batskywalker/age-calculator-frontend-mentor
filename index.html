@@ -10,9 +10,9 @@
   <title>Frontend Mentor | Age calculator app</title>
 </head>
 <body>
-  <div id="contain_the_container">
+  <div id="contain-the-container">
     <div id="container">
-      <div id="contained_container">
+      <div id="contained-container">
         <div id="input">
           <form id="date">
             <table>
@@ -22,11 +22,11 @@
                 <th><label for="year">YEAR</label></th>
               </tr>
               <tr>
-                <td><input type="number" id="input_day" name="day" min="1" max="31" placeholder="DD" required></td>
-                <td><input type="number" id="input_month" name="month" min="1" max="12" placeholder="MM" required></td>
-                <td><input type="number" id="input_year" name="year" placeholder="YYYY" required></td>
+                <td><input type="number" id="input-day" name="day" min="1" max="31" placeholder="DD" required></td>
+                <td><input type="number" id="input-month" name="month" min="1" max="12" placeholder="MM" required></td>
+                <td><input type="number" id="input-year" name="year" placeholder="YYYY" required></td>
 
-                <td><input type="submit" id="submit" name="submit"></td>
+                <td><button type="submit" id="submit" name="submit"><img src="assets/images/icon-arrow.svg"></button></td>
               </tr>
             </table>
           </form>
@@ -35,11 +35,11 @@
         <hr>
 
         <div id="output">
-          <p id="years">-- years</p>
+          <p id="years"><span class="time-display">--</span> years</p>
 
-          <p id="months">-- months</p>
+          <p id="months"><span class="time-display">--</span> months</p>
 
-          <p id="days">-- days</p>
+          <p id="days"><span class="time-display">--</span> days</p>
         </div>
       </div>
     </div>
