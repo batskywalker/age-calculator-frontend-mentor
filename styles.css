@@ -5,6 +5,7 @@ table {
 html, body {
     height: 100%;
     background-color: hsl(0, 0%, 94%);
+    color: hsl(0, 0%, 8%);
 }
 
 #contain-the-container {
@@ -17,6 +18,11 @@ html, body {
 
 #contained-container {
     background-color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    border-bottom-right-radius: 80px;
+    padding: 25px;
+    padding-right: 200px;
+    width: 618px;
 }
 
 #container {
@@ -27,9 +33,24 @@ html, body {
     flex-grow: 1;
 }
 
+#input-boxes input {
+    font-size: 32px;
+    width: 100px;
+    
+}
+
 #submit {
     border: none;
     background-color: hsl(259, 100%, 65%);
     border-radius: 50px;
     padding: 18px;
+}
+
+#output {
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.time-display {
+    color: hsl(259, 100%, 65%);
 }
