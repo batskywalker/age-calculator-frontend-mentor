@@ -37,6 +37,11 @@ html, body {
     font-size: 32px;
     width: 100px;
     font-weight: 700;
+    outline: none;
+}
+
+input[type=number]:focus {
+    border-color: #834FFE;
 }
 
 #submit {
@@ -47,8 +52,8 @@ html, body {
 }
 
 #output {
-    font-size: 32px;
-    font-weight: 800;
+    font-size: 60px;
+    font-weight: 1000;
 }
 
 .time-display {
